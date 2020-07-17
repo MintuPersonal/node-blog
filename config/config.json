@@ -1,0 +1,29 @@
+{
+    "development": {
+        "host": "127.0.0.1",
+        "database": "blog",
+        "username": "postgres",
+        "password": "1qaz",
+        "dialect": "postgres",
+        "define": { "timestamps": false },
+        "operatorsAliases": 0
+    },
+    "stage": {
+        "host": "127.0.0.1",
+        "database": "test_blog",
+        "username": "postgres",
+        "password": "1qaz",
+        "dialect": "postgres",
+        "define": { "timestamps": false },
+        "operatorsAliases": 0
+    },
+    "production": {
+        "host": "127.0.0.1",
+        "database": "blog",
+        "username": "postgres",
+        "password": "1qaz",
+        "dialect": "postgres",
+        "define": { "timestamps": false },
+        "operatorsAliases": 0
+    }
+}

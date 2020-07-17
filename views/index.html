@@ -1,0 +1,29 @@
+<html>
+    <head></head>
+    <body>
+        <h1>Node Blog Post</h1>
+        
+        <% for(let i = 0; i < posts.length; i++) { %>
+            <article>
+
+                <p><%i%> <%= posts[i].messages %></p>
+            </article>
+        <% } %>
+        <form action="addPost" method="POST"> 
+            Name:       
+            <input type='text' name="first_name"/>
+            Last name:
+            <input type='text' name="last_name"/>
+            Pass:
+            <input type='password' name="pass_word"/>
+            Comment:
+            <textarea name="messages"></textarea>
+            Date of birth:
+            <input type='date' name="dob"/>
+            Email:
+            <input type='email' name="email"/>
+            
+            <input type="submit" value="Add Post" />
+        </form>
+    </body>
+</html>
